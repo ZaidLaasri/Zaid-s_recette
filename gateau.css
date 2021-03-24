@@ -1,0 +1,149 @@
+body{
+    background-color: #8ba1bb;
+    font-family: Arial;
+}
+div.categorie{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+h4{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-top: -15px;
+    
+    padding:8px 18px ;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+    overflow: visible;
+    
+}
+div.contenu{
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, .1);
+overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+p.des{
+    text-align: center;
+    display: inline-block;
+    max-width: 400px;
+    font-size: 14px;
+    }
+div.des{
+    text-align: center;
+
+}
+.ligne{
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    width: 100%;
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+}
+div.info{
+    position: relative;
+
+}
+table.info{
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%;
+    color: white; 
+    background-color:#6C829DC0; 
+    height: 80px;
+    
+}
+table.info td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+
+}
+table.info th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+.colonne1{
+    width: 45%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10%;
+    
+}
+.colonne2{
+    width: 45%;
+    float: right;
+    margin-top: 20px;
+    
+    
+}
+.colonne1 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+
+}
+.colonne2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+    }
+    p.liste{
+        border: 1px solid lightgray;
+        margin-top: 4px;
+        margin-bottom: 0;
+        padding: 8px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    p.num{
+        background-color: #6C829D;
+        color: white;
+        height: 25px;
+        width: 25px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 4px;
+        box-sizing: border-box;
+        margin: 0;
+        border-radius: 50%;
+        }
+        .prep td{
+            vertical-align: top;
+        }
+        .etap{
+            padding-left: 10px;
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+        .prep tr{
+            height: 40px;
+        }
+        *{
+            overflow: auto;
+        }
